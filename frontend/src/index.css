@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+  border-radius: 12px;
+}
