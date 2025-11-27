@@ -110,9 +110,7 @@ function BookHotels({ language }) {
             <div style={{ padding: 15 }}>
               <h3 style={{ margin: "0 0 5px" }}>{hotel.name}</h3>
               {hotel.location && <p style={{ margin: "0 0 10px", color: "#555" }}>{hotel.location}</p>}
-              <p style={{ fontStyle: "italic", color: "#888" }}>
-                {language === "en" ? "Click to view rooms" : "ክፍሎቹን ለማየት ጠቅ ያድርጉ"}
-              </p>
+              
             </div>
           </div>
         ))}

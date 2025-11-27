@@ -25,6 +25,8 @@ const HeroSection = ({ language = "en" }) => {
   </h1>
 </div>
 
+
+
       {/* Hero Section Banner */}
       
       
@@ -61,7 +63,7 @@ const HeroSection = ({ language = "en" }) => {
         </div>
 
         {/* Floating Search Panel */}
-        <div className="absolute z-10 mt-28 left-1/2 transform -translate-x-1/2 w-11/12 md:w-3/5 bg-white/90 backdrop-blur-sm rounded-3xl shadow-lg p-4 flex flex-col md:flex-row gap-3 items-center">
+        <div className="absolute z-10 mt-28 left-10px top-10px h-60px w-768px transform -translate-x-1/2 w-11/12 md:w-3/5 bg-white/90 backdrop-blur-sm rounded-3xl shadow-lg p-4 flex flex-col md:flex-row gap-3 items-center">
           {/* WHERE */}
           <div className="flex flex-col w-full md:w-1/3">
             <label className="text-[11px] text-gray-600 font-semibold mb-1">
@@ -113,7 +115,7 @@ const HeroSection = ({ language = "en" }) => {
           {/* SEARCH BUTTON */}
           <button
             onClick={handleSearch}
-            className="flex items-center px-6 py-2 bg-orange-500 text-white font-semibold rounded-full gap-2 text-sm"
+            className="flex items-center px-6 py-2 bg-orange-500 text-white font-semibold rounded-full gap-2 text-sm w-35px h-80px"
           >
             {language === "en" ? "Search" : "ፈልግ"}
           </button>
